@@ -105,7 +105,7 @@ export function randomQuestion(q, p) {
     else {
         newQ = q;
         newQ.count++;
-        if (Math.floor(Math.random() * 6) === 2 || q.list.length === 0 || p.length < 4) {
+        if (Math.floor(Math.random() * 6) === 2 || q.list.length < 2 || p.length < 4) {
             newQ.current = "p";
             newQ.param = p[Math.floor(Math.random() * p.length)];
             newQ.text = newQ.count + ". Is it " + fixCapitalization(newQ.param.name) + "?";
