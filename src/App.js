@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import { Question } from "./Question";
+import { Buttons } from "./Buttons";
+import { useSelector } from 'react-redux';
 
 function App() {
+  const won = useSelector(state => state.won);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      {!won && <div class="flex">
+        <Question />
+        <Buttons />
+      </div>}
+      {won && <p>Guessed the Pokemon!</p>}
+    </Fragment>
   );
 }
 
