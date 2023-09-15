@@ -8,7 +8,7 @@ import { Restart } from './Restart';
 
 function App() {
   const won = useSelector(state => state.won);
-  const guesses = useSelector(state => state.question.count);
+  const text = useSelector(state => state.wonText);
   return (
     <Fragment>
       <Helmet bodyAttributes={{ style: 'background-color : red' }} />
@@ -18,7 +18,7 @@ function App() {
           <Buttons />
         </div>}
         {won && <div class="game">
-          <p>Got the Pokemon in {guesses} guesses!</p>
+          <p>{text}</p>
           <Restart />
           </div>}
       </div>

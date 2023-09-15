@@ -645,7 +645,7 @@
       "legendary": false,
       "color": "blue",
       "wings": false,
-      "legs": 2
+      "legs": 0
   },
   {
       "name": "tentacruel",
@@ -653,8 +653,7 @@
       "stage": 2,
       "legendary": false,
       "color": "blue",
-      "wings": false,
-      "legs": 4
+      "wings": false
   },
   {
       "name": "geodude",
@@ -1257,7 +1256,7 @@
       "legendary": false,
       "color": "brown",
       "wings": false,
-      "legs": 6
+      "legs": 4
   },
   {
       "name": "kabutops",

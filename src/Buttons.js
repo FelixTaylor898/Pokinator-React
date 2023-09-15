@@ -9,8 +9,8 @@ export function Buttons() {
     return (
         <Fragment>
             <div class="flex-container">
-                <button onClick={() => dispatch(answerTrue())}>Yes</button>
-                <button onClick={() => dispatch(answerFalse())}>No</button>
+                <button class="b" onClick={() => dispatch(answerTrue())}>Yes</button>
+                <button class="b" onClick={() => dispatch(answerFalse())}>No</button>
             </div>
         </Fragment>
     );

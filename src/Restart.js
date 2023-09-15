@@ -1,5 +1,5 @@
-import './App.css';
 import './Buttons.css';
+import './App.css';
 import { Fragment } from 'react';
 import { restart } from './answers';
 import { useDispatch } from 'react-redux'
@@ -9,7 +9,7 @@ export function Restart() {
     return (
         <Fragment>
             <div class="flex-container">
-                <button onClick={() => dispatch(restart())}>Restart</button>
+                <button class="b" onClick={() => dispatch(restart())}>Restart</button>
             </div>
         </Fragment>
     );
