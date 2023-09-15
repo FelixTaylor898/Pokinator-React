@@ -3,16 +3,25 @@ import { Fragment } from 'react';
 import { Question } from "./Question";
 import { Buttons } from "./Buttons";
 import { useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
+import { Restart } from './Restart';
 
 function App() {
   const won = useSelector(state => state.won);
+  const guesses = useSelector(state => state.question.count);
   return (
     <Fragment>
-      {!won && <div class="flex">
-        <Question />
-        <Buttons />
-      </div>}
-      {won && <p>Guessed the Pokemon!</p>}
+      <Helmet bodyAttributes={{ style: 'background-color : red' }} />
+      <div class="flex-container">
+        {!won && <div class="game">
+          <Question />
+          <Buttons />
+        </div>}
+        {won && <div class="game">
+          <p>Got the Pokemon in {guesses} guesses!</p>
+          <Restart />
+          </div>}
+      </div>
     </Fragment>
   );
 }
