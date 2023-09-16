@@ -11,7 +11,9 @@ const initialStore = {
         "count": 0
     },
     won: false,
-    wonText: null
+    wonText: null,
+    askWings: false,
+    askLegendary: false
 };
 
 function reducer(state, answer) {
@@ -21,7 +23,9 @@ function reducer(state, answer) {
             pokemon: data,
             question: randomQuestion(null, data),
             won: false,
-            wonText: null
+            wonText: null,
+            askWings: false,
+            askLegendary: false
         };
     }
     if (state.pokemon.length === 0) {
@@ -86,12 +90,25 @@ function reducer(state, answer) {
     };
 }
 
+function guessPoke(newQ, p) {
+    newQ.count++;
+    if (p.length === 0) {
+        newQ.won = true;
+        newQ.wonText = "I couldn't get it in " + newQ.count + " guesses!";
+        return newQ;
+    }
+    newQ.current = "p";
+    newQ.param = p[Math.floor(Math.random() * p.length)];
+    newQ.text = newQ.count + ". Is it " + fixCapitalization(newQ.param.name) + "?";
+    return newQ;
+}
+
 export function randomQuestion(q, p) {
-    var newQ;
+    var newQ = q;
     if (q == null) {
         newQ = {
-            "count": 1,
-            "list": ["w", "l", "c", "t", "s", "n"],
+            "count": 0,
+            "list": ["l", "c", "t", "n"],
             "text": null,
             "param": null,
             "current": null,
@@ -102,21 +119,21 @@ export function randomQuestion(q, p) {
             "aLegs": [0, 2, 4]
         };
     }
-    else {
-        newQ = q;
-        newQ.count++;
-        if (Math.floor(Math.random() * 6) === 2 || q.list.length < 2 || p.length < 4) {
-            newQ.current = "p";
-            newQ.param = p[Math.floor(Math.random() * p.length)];
-            newQ.text = newQ.count + ". Is it " + fixCapitalization(newQ.param.name) + "?";
-            return newQ;
-        }
+    else if (Math.floor(Math.random() * 6) === 2 || q.list.length < 2 || p.length < 4) {
+        return guessPoke(newQ, p);
     }
     var randPoke = p[Math.floor(Math.random() * p.length)];
     var randQuest;
-    do {
-        randQuest = newQ.list[Math.floor(Math.random() * newQ.list.length)];
-    } while ((randQuest === "w" && !randPoke.wings) || (randQuest === "s" && !randPoke.legendary));
+    if (randPoke.wings && !newQ.askWing) {
+        newQ.askWings = true;
+        randQuest = "w";
+    } else if (randPoke.legendary && !newQ.askLegendary) {
+        newQ.askLegendary = true;
+        randQuest = "s";
+    } else {
+        randQuest = newQ.list[Math.floor(Math.random() * newQ.list.length)]
+    }
+    newQ.count++;
     newQ.current = randQuest;
     switch (randQuest) {
         case ("w"):
@@ -129,25 +146,25 @@ export function randomQuestion(q, p) {
             newQ.param = randPoke.legs;
             newQ.text = newQ.count + ". Does it have " + newQ.param + " legs/talons?";
             newQ.aLegs = newQ.aLegs.filter(item => item !== newQ.param);
-            if (newQ.aLegs.length === 1) newQ.list = newQ.list.filter(item => item !== "l");
+            if (newQ.aLegs.length < 2) newQ.list = newQ.list.filter(item => item !== "l");
             break;
         case ("n"):
             newQ.param = randPoke.stage;
             newQ.text = newQ.count + ". Is it a stage " + newQ.param + " Pokemon?";
             newQ.aStages = newQ.aStages.filter(item => item !== newQ.param);
-            if (newQ.aStages.length === 1) newQ.list = newQ.list.filter(item => item !== "n");
+            if (newQ.aStages.length < 2) newQ.list = newQ.list.filter(item => item !== "n");
             break;
         case ("c"):
             newQ.param = randPoke.color;
-            newQ.text = newQ.count + ". Is it " + newQ.param + "?";
+            newQ.text = newQ.count + ". Is it a " + newQ.param + " Pokemon?";
             newQ.aColors = newQ.aColors.filter(item => item !== newQ.param);
-            if (newQ.aColors.length === 1) newQ.list = newQ.list.filter(item => item !== "c");
+            if (newQ.aColors.length < 2) newQ.list = newQ.list.filter(item => item !== "c");
             break;
         case ("t"):
             newQ.param = randPoke.type[Math.floor(Math.random() * randPoke.type.length)];
-            newQ.text = newQ.count + ". Is it " + newQ.param + " type?";
+            newQ.text = newQ.count + ". Is it " + newQ.param + "-type?";
             newQ.aTypes = newQ.aTypes.filter(item => item !== newQ.param);
-            if (newQ.aTypes.length === 1) newQ.list = newQ.list.filter(item => item !== "t");
+            if (newQ.aTypes.length < 2) newQ.list = newQ.list.filter(item => item !== "t");
             break;
         default:
             break;

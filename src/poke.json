@@ -420,7 +420,7 @@
       "legendary": false,
       "color": "red",
       "wings": false,
-      "legs": 6
+      "legs": 4
   },
   {
       "name": "venonat",
@@ -773,7 +773,7 @@
       "legs": 0
   },
   {
-      "name": "dewgoing",
+      "name": "dewgong",
       "type": ["water", "ice"],
       "stage": 2,
       "legendary": false,

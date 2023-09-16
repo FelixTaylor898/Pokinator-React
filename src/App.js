@@ -14,13 +14,15 @@ function App() {
       <Helmet bodyAttributes={{ style: 'background-color : red' }} />
       <div class="flex-container">
         {!won && <div class="game">
+          <p><strong>Pokemon Guessing Game</strong></p>
           <Question />
           <Buttons />
         </div>}
         {won && <div class="game">
+          <p><strong>Pokemon Guessing Game</strong></p>
           <p>{text}</p>
           <Restart />
-          </div>}
+        </div>}
       </div>
     </Fragment>
   );
