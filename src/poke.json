@@ -213,7 +213,7 @@
         "color": "brown",
         "wings": true,
         "legs": 2,
-        "mega": true,
+        "mega": false,
         "evolve": "level-up"
     },
     {

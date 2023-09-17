@@ -132,7 +132,7 @@ export function randomQuestion(q, p) {
     else if (checkZero(newQ, p)) {
         return newQ;
     }
-    else if (p.length < 30 && (Math.floor(Math.random() * 10) === 2 || q.list.length < 2 || p.length < 4)) {
+    else if (p.length < 20 && (Math.floor(Math.random() * 10) === 2 || q.list.length < 2 || p.length < 4)) {
         return guessPoke(newQ, p);
     }
     var randPoke = p[Math.floor(Math.random() * p.length)];
@@ -148,7 +148,7 @@ export function randomQuestion(q, p) {
         randQuest = "m";
     } else do {
         randQuest = newQ.list[Math.floor(Math.random() * newQ.list.length)];
-    } while(randQuest === "e" && randPoke.evolve == null);
+    } while (randQuest === "e" && randPoke.evolve == null);
     newQ.count++;
     newQ.current = randQuest;
     switch (randQuest) {
@@ -187,7 +187,7 @@ export function randomQuestion(q, p) {
             break;
         case ("e"):
             newQ.param = randPoke.evolve;
-            newQ.text = newQ.count +". Does the Pokemon evolve by " + newQ.param + "?";
+            newQ.text = newQ.count + ". Does the Pokemon evolve by " + newQ.param + "?";
             newQ.aEvolve = newQ.aEvolve.filter(item => item !== newQ.param);
             if (newQ.aTypes.length < 2) newQ.list = newQ.list.filter(item => item !== "e");
             break;
