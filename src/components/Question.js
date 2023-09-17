@@ -1,4 +1,4 @@
-import './App.css';
+import './../css/App.css';
 import { Fragment } from 'react';
 import { useSelector } from 'react-redux';
 

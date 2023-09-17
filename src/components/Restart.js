@@ -1,7 +1,7 @@
-import './Buttons.css';
-import './App.css';
+import './../css/Buttons.css';
+import './../css/App.css';
 import { Fragment } from 'react';
-import { restart } from './answers';
+import { restart } from '../js/answers';
 import { useDispatch } from 'react-redux'
 
 export function Restart() {

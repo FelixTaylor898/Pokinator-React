@@ -1,1360 +1,2026 @@
 [
-  {
-      "name": "bulbasaur",
-      "type": ["grass", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "ivysaur",
-      "type": ["grass", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "venusaur",
-      "type": ["grass", "poison"],
-      "stage": 3,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "charmander",
-      "type": ["fire"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "charmeleon",
-      "type": ["fire"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "charizard",
-      "type": ["fire", "flying"],
-      "stage": 3,
-      "legendary": false,
-      "color": "red",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "squirtle",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "wartortle",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "blastoise",
-      "type": ["water"],
-      "stage": 3,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "caterpie",
-      "type": ["bug"],
-      "stage": 1,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "metapod",
-      "type": ["bug"],
-      "stage": 2,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "butterfree",
-      "type": ["bug", "flying"],
-      "stage": 3,
-      "legendary": false,
-      "color": "purple",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "weedle",
-      "type": ["bug", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 14
-  },
-  {
-      "name": "kakuna",
-      "type": ["bug", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "beedrill",
-      "type": ["bug", "poison"],
-      "stage": 3,
-      "legendary": false,
-      "color": "yellow",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "pidgey",
-      "type": ["normal", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "pidgeotto",
-      "type": ["normal", "flying"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "pidgeot",
-      "type": ["normal", "flying"],
-      "stage": 3,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "rattata",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "raticate",
-      "type": ["normal"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "spearow",
-      "type": "normal, flying",
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "fearow",
-      "type": "normal, flying",
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "ekans",
-      "type": ["poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "arbok",
-      "type": ["poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "sandshrew",
-      "type": ["ground"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "sandslash",
-      "type": ["ground"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "nidoran female",
-      "type": ["poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "nidorina",
-      "type": ["poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "nidoqueen",
-      "type": ["poison", "ground"],
-      "stage": 3,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "nidoran male",
-      "type": ["poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "nidorino",
-      "type": ["poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "nidoking",
-      "type": ["poison", "ground"],
-      "stage": 3,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "pikachu",
-      "type": ["electric"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "raichu",
-      "type": ["electric"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "clefairy",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "clefable",
-      "type": ["normal"],
-      "stage": 2,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "vulpix",
-      "type": ["fire"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "ninetales",
-      "type": ["fire"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "jigglypuff",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "wigglytuff",
-      "type": ["normal"],
-      "stage": 2,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "zubat",
-      "type": ["poison", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "golbat",
-      "type": ["poison", "flying"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "oddish",
-      "type": ["grass", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "gloom",
-      "type": ["grass", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "vileplume",
-      "type": ["grass", "poison"],
-      "stage": 3,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "paras",
-      "type": ["bug", "grass"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "parasect",
-      "type": ["bug", "grass"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "venonat",
-      "type": ["bug", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "venomoth",
-      "type": ["bug", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": true,
-      "legs": 0
-  },
-  {
-      "name": "diglett",
-      "type": ["ground"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "dugtrio",
-      "type": ["ground"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "meowth",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "persian",
-      "type": ["normal"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "psyduck",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "golduck",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "mankey",
-      "type": ["fighting"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "primeape",
-      "type": ["fighting"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "growlithe",
-      "type": ["fire"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "arcanine",
-      "type": ["fire"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "poliwag",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "poliwhirl",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "poliwrath",
-      "type": ["water", "fighting"],
-      "stage": 3,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "abra",
-      "type": ["psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "kadabra",
-      "type": ["psychic"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "alakazam",
-      "type": ["psychic"],
-      "stage": 3,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "machop",
-      "type": ["fighting"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "machoke",
-      "type": ["fighting"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "machamp",
-      "type": ["fighting"],
-      "stage": 3,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "bellsprout",
-      "type": ["grass", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "weepinbell",
-      "type": ["grass", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "victreebel",
-      "type": ["grass", "poison"],
-      "stage": 3,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "tentacool",
-      "type": ["water", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "tentacruel",
-      "type": ["water", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false
-  },
-  {
-      "name": "geodude",
-      "type": ["rock", "ground"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "graveler",
-      "type": ["rock", "ground"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "golem",
-      "type": ["rock", "ground"],
-      "stage": 3,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "ponyta",
-      "type": ["fire"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "rapidash",
-      "type": ["fire"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "slowpoke",
-      "type": ["water", "psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "slowbro",
-      "type": ["water", "psychic"],
-      "stage": 2,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "magnemite",
-      "type": ["electric"],
-      "stage": 1,
-      "legendary": false,
-      "color": "gray",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "magneton",
-      "type": ["electric"],
-      "stage": 2,
-      "legendary": false,
-      "color": "gray",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "farfetch'd",
-      "type": ["normal", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "doduo",
-      "type": ["normal", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "dodrio",
-      "type": ["normal", "flying"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "seel",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "white",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "dewgong",
-      "type": ["water", "ice"],
-      "stage": 2,
-      "legendary": false,
-      "color": "white",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "grimer",
-      "type": ["poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "muk",
-      "type": ["poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "shellder",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "cloyster",
-      "type": ["water", "ice"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "gastly",
-      "type": ["ghost", "poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "haunter",
-      "type": ["ghost", "poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "gengar",
-      "type": ["ghost", "poison"],
-      "stage": 3,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "onix",
-      "type": ["rock", "ground"],
-      "stage": 1,
-      "legendary": false,
-      "color": "gray",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "drowzee",
-      "type": ["psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "hypno",
-      "type": ["psychic"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "krabby",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "kingler",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "voltorb",
-      "type": ["electric"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "electrode",
-      "type": ["electric"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "exeggcute",
-      "type": ["grass", "psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "exeggutor",
-      "type": ["grass", "psychic"],
-      "stage": 2,
-      "legendary": false,
-      "color": "green",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "cubone",
-      "type": ["ground"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "marowak",
-      "type": ["ground"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "hitmonlee",
-      "type": ["fighting"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "hitmonchan",
-      "type": ["fighting"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "lickitung",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "koffing",
-      "type": ["poison"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "weezing",
-      "type": ["poison"],
-      "stage": 2,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "rhyhorn",
-      "type": ["ground", "rock"],
-      "stage": 1,
-      "legendary": false,
-      "color": "gray",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "rhydon",
-      "type": ["ground", "rock"],
-      "stage": 2,
-      "legendary": false,
-      "color": "gray",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "chansey",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "tangela",
-      "type": ["grass"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "kangaskhan",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "horsea",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "seadra",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "goldeen",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "seaking",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "staryu",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "starmie",
-      "type": ["water", "psychic"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "mr. mime",
-      "type": ["psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "scyther",
-      "type": ["bug", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "green",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "jynx",
-      "type": ["ice", "psychic"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "electabuzz",
-      "type": ["electric"],
-      "stage": 1,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "pinsir",
-      "type": ["fire"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "tauros",
-      "type": ["bug"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "magikarp",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "magmar",
-      "type": ["water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "gyarados",
-      "type": ["water", "flying"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "lapras",
-      "type": ["water", "ice"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "ditto",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "eevee",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "vaporeon",
-      "type": ["water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "jolteon",
-      "type": ["electric"],
-      "stage": 2,
-      "legendary": false,
-      "color": "yellow",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "flareon",
-      "type": ["fire"],
-      "stage": 2,
-      "legendary": false,
-      "color": "red",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "porygon",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "pink",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "omanyte",
-      "type": ["rock", "water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "omastar",
-      "type": ["rock", "water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "kabuto",
-      "type": ["rock", "water"],
-      "stage": 1,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 4
-  },
-  {
-      "name": "kabutops",
-      "type": ["rock", "water"],
-      "stage": 2,
-      "legendary": false,
-      "color": "brown",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "aerodactyl",
-      "type": ["rock", "flying"],
-      "stage": 1,
-      "legendary": false,
-      "color": "purple",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "snorlax",
-      "type": ["normal"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "articuno",
-      "type": ["ice", "flying"],
-      "stage": 1,
-      "legendary": true,
-      "color": "blue",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "zapdos",
-      "type": ["electric", "flying"],
-      "stage": 1,
-      "legendary": true,
-      "color": "yellow",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "moltres",
-      "type": ["fire", "flying"],
-      "stage": 1,
-      "legendary": true,
-      "color": "yellow",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "dratini",
-      "type": ["dragon"],
-      "stage": 1,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "dragonair",
-      "type": ["dragon"],
-      "stage": 2,
-      "legendary": false,
-      "color": "blue",
-      "wings": false,
-      "legs": 0
-  },
-  {
-      "name": "dragonite",
-      "type": ["dragon", "flying"],
-      "stage": 3,
-      "legendary": false,
-      "color": "yellow",
-      "wings": true,
-      "legs": 2
-  },
-  {
-      "name": "mewtwo",
-      "type": ["psychic"],
-      "stage": 1,
-      "legendary": true,
-      "color": "purple",
-      "wings": false,
-      "legs": 2
-  },
-  {
-      "name": "mew",
-      "type": ["psychic"],
-      "stage": 1,
-      "legendary": true,
-      "color": "pink",
-      "wings": false,
-      "legs": 2
-  }
+    {
+        "name": "Bulbasaur",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up",
+        "mega": false
+    },
+    {
+        "name": "Ivysaur",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "legs": 4,
+        "mega": false,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Venusaur",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "mega": true,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Charmander",
+        "type": [
+            "fire"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Charmeleon",
+        "type": [
+            "fire"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "red",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Charizard",
+        "type": [
+            "fire",
+            "flying"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "red",
+        "mega": true,
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Squirtle",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Wartortle",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Blastoise",
+        "type": [
+            "water"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Caterpie",
+        "type": [
+            "bug"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "green",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Metapod",
+        "type": [
+            "bug"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Butterfree",
+        "type": [
+            "bug",
+            "flying"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Weedle",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Kakuna",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "yellow",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Beedrill",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "mega": true,
+        "color": "yellow",
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Pidgey",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": true,
+        "legs": 2,
+        "mega": true,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Pidgeotto",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "brown",
+        "wings": true,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Pidgeot",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "mega": true,
+        "color": "brown",
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Rattata",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "purple",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Raticate",
+        "type": [
+            "normal"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "brown",
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Spearow",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": true,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Fearow",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "brown",
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Ekans",
+        "type": [
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Arbok",
+        "type": [
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Sandshrew",
+        "type": [
+            "ground"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Sandslash",
+        "type": [
+            "ground"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "yellow",
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Nidoran&female;",
+        "type": [
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Nidorina",
+        "type": [
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Nidoqueen",
+        "type": [
+            "poison",
+            "ground"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Nidoran&male;",
+        "type": [
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "purple",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Nidorino",
+        "type": [
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 4,
+        "mega": false,
+        "evolve": "stone"
+    },
+    {
+        "name": "Nidoking",
+        "type": [
+            "poison",
+            "ground"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Pikachu",
+        "type": [
+            "electric"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Raichu",
+        "type": [
+            "electric"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Clefairy",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Clefable",
+        "type": [
+            "normal"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Vulpix",
+        "type": [
+            "fire"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": "stone"
+    },
+    {
+        "name": "Ninetales",
+        "type": [
+            "fire"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Jigglypuff",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Wigglytuff",
+        "type": [
+            "normal"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Zubat",
+        "type": [
+            "poison",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": true,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Golbat",
+        "type": [
+            "poison",
+            "flying"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "wings": true,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Oddish",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Gloom",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Vileplume",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Paras",
+        "type": [
+            "bug",
+            "grass"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Parasect",
+        "type": [
+            "bug",
+            "grass"
+        ],
+        "stage": 2,
+        "mega": false,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Venonat",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Venomoth",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "mega": false,
+        "wings": true,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Diglett",
+        "type": [
+            "ground"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "brown",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Dugtrio",
+        "type": [
+            "ground"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "brown",
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Meowth",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Persian",
+        "type": [
+            "normal"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Psyduck",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Golduck",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Mankey",
+        "type": [
+            "fighting"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Primeape",
+        "type": [
+            "fighting"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Growlithe",
+        "type": [
+            "fire"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Arcanine",
+        "type": [
+            "fire"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "legs": 4,
+        "mega": false,
+        "evolve": null
+    },
+    {
+        "name": "Poliwag",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Poliwhirl",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "stone"
+    },
+    {
+        "name": "Poliwrath",
+        "type": [
+            "water",
+            "fighting"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Abra",
+        "type": [
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Kadabra",
+        "type": [
+            "psychic"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "yellow",
+        "wings": false,
+        "legs": 2,
+        "evolve": "trade"
+    },
+    {
+        "name": "Alakazam",
+        "type": [
+            "psychic"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "legs": 2,
+        "mega": true,
+        "evolve": null
+    },
+    {
+        "name": "Machop",
+        "type": [
+            "fighting"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "mega": false,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Machoke",
+        "type": [
+            "fighting"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 2,
+        "mega": false,
+        "evolve": "trade"
+    },
+    {
+        "name": "Machamp",
+        "type": [
+            "fighting"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Bellsprout",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Weepinbell",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "legs": 0,
+        "mega": false,
+        "evolve": "stone"
+    },
+    {
+        "name": "Victreebel",
+        "type": [
+            "grass",
+            "poison"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Tentacool",
+        "type": [
+            "water",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Tentacruel",
+        "type": [
+            "water",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Geodude",
+        "type": [
+            "rock",
+            "ground"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Graveler",
+        "type": [
+            "rock",
+            "ground"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "trade"
+    },
+    {
+        "name": "Golem",
+        "type": [
+            "rock",
+            "ground"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Ponyta",
+        "type": [
+            "fire"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Rapidash",
+        "type": [
+            "fire"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Slowpoke",
+        "type": [
+            "water",
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": true,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Slowbro",
+        "type": [
+            "water",
+            "psychic"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Magnemite",
+        "type": [
+            "electric"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "gray",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Magneton",
+        "type": [
+            "electric"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "gray",
+        "wings": false,
+        "legs": 0,
+        "mega": false,
+        "evolve": null
+    },
+    {
+        "name": "Farfetch'd",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": true,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Doduo",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Dodrio",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Seel",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "white",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Dewgong",
+        "type": [
+            "water",
+            "ice"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "white",
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Grimer",
+        "type": [
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Muk",
+        "type": [
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Shellder",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Cloyster",
+        "type": [
+            "water",
+            "ice"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Gastly",
+        "type": [
+            "ghost",
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Haunter",
+        "type": [
+            "ghost",
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "trade"
+    },
+    {
+        "name": "Gengar",
+        "type": [
+            "ghost",
+            "poison"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "mega": true,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Onix",
+        "type": [
+            "rock",
+            "ground"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "gray",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Drowzee",
+        "type": [
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Hypno",
+        "type": [
+            "psychic"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Krabby",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Kingler",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Voltorb",
+        "type": [
+            "electric"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Electrode",
+        "type": [
+            "electric"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "legs": 0,
+        "mega": false,
+        "evolve": null
+    },
+    {
+        "name": "Exeggcute",
+        "type": [
+            "grass",
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "stone"
+    },
+    {
+        "name": "Exeggutor",
+        "type": [
+            "grass",
+            "psychic"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "green",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Cubone",
+        "type": [
+            "ground"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Marowak",
+        "type": [
+            "ground"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Hitmonlee",
+        "type": [
+            "fighting"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Hitmonchan",
+        "type": [
+            "fighting"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Lickitung",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Koffing",
+        "type": [
+            "poison"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Weezing",
+        "type": [
+            "poison"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "purple",
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Rhyhorn",
+        "type": [
+            "ground",
+            "rock"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "gray",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Rhydon",
+        "type": [
+            "ground",
+            "rock"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "mega": false,
+        "color": "gray",
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Chansey",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Tangela",
+        "type": [
+            "grass"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Kangaskhan",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Horsea",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Seadra",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Goldeen",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "color": "red",
+        "wings": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Seaking",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "legs": 0,
+        "mega": false,
+        "evolve": null
+    },
+    {
+        "name": "Staryu",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "stone"
+    },
+    {
+        "name": "Starmie",
+        "type": [
+            "water",
+            "psychic"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Mr. Mime",
+        "type": [
+            "psychic"
+        ],
+        "stage": 1,
+        "mega": false,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Scyther",
+        "type": [
+            "bug",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "green",
+        "wings": true,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Jynx",
+        "type": [
+            "ice",
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Electabuzz",
+        "type": [
+            "electric"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Pinsir",
+        "type": [
+            "bug"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": true,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Tauros",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Magikarp",
+        "type": [
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Magmar",
+        "type": [
+            "fire"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Gyarados",
+        "type": [
+            "water",
+            "flying"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "mega": true,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Lapras",
+        "type": [
+            "water",
+            "ice"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Ditto",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "purple",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Eevee",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": "stone"
+    },
+    {
+        "name": "Vaporeon",
+        "type": [
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Jolteon",
+        "type": [
+            "electric"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Flareon",
+        "type": [
+            "fire"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "red",
+        "mega": false,
+        "wings": false,
+        "legs": 4,
+        "evolve": null
+    },
+    {
+        "name": "Porygon",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "pink",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": null
+    },
+    {
+        "name": "Omanyte",
+        "type": [
+            "rock",
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Omastar",
+        "type": [
+            "rock",
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Kabuto",
+        "type": [
+            "rock",
+            "water"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 4,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Kabutops",
+        "type": [
+            "rock",
+            "water"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "brown",
+        "wings": false,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Aerodactyl",
+        "type": [
+            "rock",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "purple",
+        "wings": true,
+        "mega": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Snorlax",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Articuno",
+        "type": [
+            "ice",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": true,
+        "color": "blue",
+        "wings": true,
+        "mega": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Zapdos",
+        "type": [
+            "electric",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": true,
+        "mega": false,
+        "color": "yellow",
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Moltres",
+        "type": [
+            "fire",
+            "flying"
+        ],
+        "stage": 1,
+        "legendary": true,
+        "color": "yellow",
+        "wings": true,
+        "legs": 2,
+        "mega": false,
+        "evolve": null
+    },
+    {
+        "name": "Dratini",
+        "type": [
+            "dragon"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "mega": false,
+        "legs": 0,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Dragonair",
+        "type": [
+            "dragon"
+        ],
+        "stage": 2,
+        "legendary": false,
+        "color": "blue",
+        "wings": false,
+        "legs": 0,
+        "mega": false,
+        "evolve": "level-up"
+    },
+    {
+        "name": "Dragonite",
+        "type": [
+            "dragon",
+            "flying"
+        ],
+        "stage": 3,
+        "legendary": false,
+        "color": "yellow",
+        "mega": false,
+        "wings": true,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Mewtwo",
+        "type": [
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": true,
+        "color": "purple",
+        "mega": true,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    },
+    {
+        "name": "Mew",
+        "type": [
+            "psychic"
+        ],
+        "stage": 1,
+        "legendary": true,
+        "color": "pink",
+        "mega": false,
+        "wings": false,
+        "legs": 2,
+        "evolve": null
+    }
 ]
