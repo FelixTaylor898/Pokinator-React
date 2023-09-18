@@ -51,7 +51,7 @@
         "regional": false,
         "mega": true,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Charmander",
@@ -103,7 +103,7 @@
         "mega": true,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Squirtle",
@@ -154,7 +154,7 @@
         "regional": false,
         "mega": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Caterpie",
@@ -206,7 +206,7 @@
         "wings": true,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Weedle",
@@ -238,7 +238,7 @@
         "color": ["yellow"],
         "baby": false,
         "wings": false,
-        "legs": 2,
+        "legs": 0,
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -260,7 +260,7 @@
         "wings": true,
         "legs": 2,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Pidgey",
@@ -314,7 +314,7 @@
         "regional": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Rattata",
@@ -348,7 +348,7 @@
         "regional": true,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Spearow",
@@ -383,7 +383,7 @@
         "color": ["brown"],
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Ekans",
@@ -417,7 +417,7 @@
         "wings": false,
         "baby": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Sandshrew",
@@ -451,10 +451,10 @@
         "starter": false,
         "regional": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
-        "name": "Nidoran&female;",
+        "name": "Nidoran♀",
         "type": ["poison"
         ],
         "stage": 1,
@@ -502,10 +502,10 @@
         "baby": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
-        "name": "Nidoran&male;",
+        "name": "Nidoran♂",
         "type": [
             "poison"
         ],
@@ -554,7 +554,7 @@
         "color": ["purple"],
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Pichu",
@@ -605,7 +605,7 @@
         "starter": false,
         "regional": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Cleffa",
@@ -656,7 +656,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Vulpix",
@@ -690,7 +690,7 @@
         "regional": true,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Igglybuff",
@@ -741,7 +741,7 @@
         "regional": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Zubat",
@@ -795,7 +795,7 @@
         "wings": true,
         "mega": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Oddish",
@@ -848,7 +848,7 @@
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Vileplume",
@@ -866,7 +866,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Paras",
@@ -902,7 +902,7 @@
         "wings": false,
         "baby": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Venonat",
@@ -938,7 +938,7 @@
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Diglett",
@@ -972,7 +972,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },    {
         "name": "Dunsparce",
         "type": [
@@ -988,7 +988,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Meowth",
@@ -1022,7 +1022,7 @@
         "baby": false,
         "mega": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Psyduck",
@@ -1056,7 +1056,7 @@
         "regional": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mankey",
@@ -1090,7 +1090,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Growlithe",
@@ -1124,7 +1124,7 @@
         "regional": true,
         "legs": 4,
         "mega": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Poliwag",
@@ -1175,7 +1175,7 @@
         "regional": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Poliwrath",
@@ -1193,7 +1193,7 @@
         "baby": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Abra",
@@ -1227,7 +1227,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Alakazam",
@@ -1244,7 +1244,7 @@
         "baby": false,
         "legs": 2,
         "mega": true,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Machop",
@@ -1278,7 +1278,7 @@
         "wings": false,
         "legs": 2,
         "mega": false,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Machamp",
@@ -1295,7 +1295,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Bellsprout",
@@ -1349,7 +1349,7 @@
         "wings": false,
         "mega": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Tentacool",
@@ -1385,7 +1385,7 @@
         "regional": false,
         "legs": 0,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Geodude",
@@ -1421,7 +1421,7 @@
         "regional": true,
         "baby": false,
         "legs": 2,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Golem",
@@ -1439,7 +1439,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Ponyta",
@@ -1473,7 +1473,7 @@
         "regional": true,
         "mega": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Slowpoke",
@@ -1509,7 +1509,7 @@
         "wings": false,
         "mega": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Slowking",
@@ -1527,7 +1527,7 @@
         "baby": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Magnemite",
@@ -1563,7 +1563,7 @@
         "regional": false,
         "legs": 0,
         "mega": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Farfetch'd",
@@ -1581,7 +1581,7 @@
         "mega": false,
         "legs": 2,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Doduo",
@@ -1617,13 +1617,11 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Seel",
-        "type": [
-            "water"
-        ],
+        "type": ["water"],
         "stage": 1,
         "legendary": false,
         "color": ["white"],
@@ -1652,7 +1650,7 @@
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Grimer",
@@ -1686,7 +1684,7 @@
         "mega": false,
         "baby": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Shellder",
@@ -1721,7 +1719,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Gastly",
@@ -1757,7 +1755,7 @@
         "regional": false,
         "mega": false,
         "legs": 0,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Gengar",
@@ -1775,7 +1773,7 @@
         "wings": false,
         "mega": true,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Onix",
@@ -1793,7 +1791,7 @@
         "wings": false,
         "baby": false,
         "legs": 0,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Steelix",
@@ -1811,7 +1809,7 @@
         "mega": true,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Drowzee",
@@ -1845,7 +1843,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Krabby",
@@ -1879,7 +1877,7 @@
         "mega": false,
         "baby": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Voltorb",
@@ -1913,7 +1911,7 @@
         "regional": true,
         "mega": false,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Exeggcute",
@@ -1949,7 +1947,7 @@
         "regional": true,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Cubone",
@@ -1983,7 +1981,7 @@
         "mega": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Hitmontop",
@@ -2000,7 +1998,7 @@
         "wings": false,
         "legs": 2,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Hitmonlee",
@@ -2017,7 +2015,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Hitmonchan",
@@ -2034,7 +2032,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Tyrogue",
@@ -2051,7 +2049,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Lickitung",
@@ -2068,7 +2066,7 @@
         "mega": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Koffing",
@@ -2102,7 +2100,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Rhyhorn",
@@ -2138,7 +2136,7 @@
         "color": ["gray"],
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Chansey",
@@ -2172,7 +2170,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Tangela",
@@ -2189,7 +2187,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Kangaskhan",
@@ -2206,7 +2204,7 @@
         "wings": false,
         "mega": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Horsea",
@@ -2240,7 +2238,7 @@
         "regional": false,
         "baby": false,
         "legs": 0,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Kingdra",
@@ -2258,7 +2256,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Goldeen",
@@ -2292,7 +2290,7 @@
         "baby": false,
         "legs": 0,
         "mega": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Staryu",
@@ -2327,7 +2325,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mr. Mime",
@@ -2344,7 +2342,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Scyther",
@@ -2362,7 +2360,7 @@
         "wings": true,
         "mega": false,
         "legs": 2,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Scizor",
@@ -2380,7 +2378,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Jynx",
@@ -2398,7 +2396,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Electabuzz",
@@ -2415,7 +2413,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Pinsir",
@@ -2432,7 +2430,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Tauros",
@@ -2449,7 +2447,7 @@
         "baby": false,
         "mega": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Stantler",
@@ -2466,7 +2464,7 @@
         "wings": false,
         "mega": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Smeargle",
@@ -2483,7 +2481,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Magikarp",
@@ -2517,7 +2515,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Gyarados",
@@ -2535,7 +2533,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Lapras",
@@ -2553,7 +2551,7 @@
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Ditto",
@@ -2570,7 +2568,7 @@
         "regional": false,
         "mega": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Eevee",
@@ -2604,7 +2602,7 @@
         "mega": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Jolteon",
@@ -2621,7 +2619,7 @@
         "wings": false,
         "baby": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Flareon",
@@ -2638,7 +2636,7 @@
         "mega": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Espeon",
@@ -2655,7 +2653,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Umbreon",
@@ -2672,7 +2670,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Porygon",
@@ -2689,7 +2687,7 @@
         "regional": false,
         "mega": false,
         "legs": 0,
-        "evolve": "trade"
+        "evolve": ["trade"]
     },
     {
         "name": "Porygon2",
@@ -2706,7 +2704,7 @@
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Omanyte",
@@ -2742,7 +2740,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Kabuto",
@@ -2778,7 +2776,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Aerodactyl",
@@ -2796,7 +2794,7 @@
         "baby": false,
         "mega": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Snorlax",
@@ -2813,7 +2811,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Articuno",
@@ -2831,7 +2829,7 @@
         "mega": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Zapdos",
@@ -2849,7 +2847,7 @@
         "color": ["yellow"],
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Moltres",
@@ -2867,7 +2865,7 @@
         "regional": true,
         "baby": false,
         "mega": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Dratini",
@@ -2919,7 +2917,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mewtwo",
@@ -2936,7 +2934,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mew",
@@ -2953,7 +2951,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Chikorita",
@@ -3004,7 +3002,7 @@
         "wings": false,
         "baby": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Cyndaquil",
@@ -3055,7 +3053,7 @@
         "starter": true,
         "regional": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Totodile",
@@ -3106,7 +3104,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Sentret",
@@ -3140,7 +3138,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Hoothoot",
@@ -3176,7 +3174,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Ledyba",
@@ -3230,7 +3228,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Ho-Oh",
@@ -3248,7 +3246,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Lugia",
@@ -3266,7 +3264,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Larvitar",
@@ -3337,7 +3335,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Entei",
@@ -3354,7 +3352,7 @@
         "starter": false,
         "regional": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Suicune",
@@ -3371,7 +3369,7 @@
         "baby": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Miltank",
@@ -3388,7 +3386,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Magby",
@@ -3476,7 +3474,7 @@
         "regional": false,
         "baby": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Chinchou",
@@ -3512,7 +3510,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Togepi",
@@ -3547,7 +3545,7 @@
         "regional": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Natu",
@@ -3583,7 +3581,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mareep",
@@ -3634,7 +3632,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Marill",
@@ -3668,7 +3666,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Sudowoodo",
@@ -3685,7 +3683,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Hoppip",
@@ -3739,7 +3737,7 @@
         "starter": false,
         "regional": false,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Aipom",
@@ -3756,7 +3754,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Sunkern",
@@ -3790,7 +3788,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Yanma",
@@ -3808,7 +3806,7 @@
         "wings": true,
         "legs": 6,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Wooper",
@@ -3844,7 +3842,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Murkrow",
@@ -3862,7 +3860,7 @@
         "wings": true,
         "legs": 2,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Misdreavus",
@@ -3879,7 +3877,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Unown",
@@ -3896,7 +3894,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Wobbuffet",
@@ -3913,7 +3911,7 @@
         "mega": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Girafarig",
@@ -3931,7 +3929,7 @@
         "baby": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Pineco",
@@ -3966,7 +3964,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Gligar",
@@ -3984,7 +3982,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Snubbull",
@@ -4018,7 +4016,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Phanpy",
@@ -4052,7 +4050,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Houndour",
@@ -4088,7 +4086,7 @@
         "mega": true,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Skarmory",
@@ -4106,7 +4104,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Mantine",
@@ -4124,7 +4122,7 @@
         "wings": false,
         "baby": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Delibird",
@@ -4142,7 +4140,7 @@
         "wings": false,
         "legs": 2,
         "baby": false,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Octillery",
@@ -4159,7 +4157,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Remoraid",
@@ -4194,7 +4192,7 @@
         "baby": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Qwilfish",
@@ -4212,7 +4210,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Shuckle",
@@ -4230,7 +4228,7 @@
         "starter": false,
         "regional": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Heracross",
@@ -4248,7 +4246,7 @@
         "mega": true,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Sneasel",
@@ -4266,7 +4264,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Teddiursa",
@@ -4300,7 +4298,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Slugma",
@@ -4335,7 +4333,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": null
+        "evolve": []
     },
     {
         "name": "Swinub",
@@ -4371,6 +4369,6 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": null
+        "evolve": []
     }
 ]

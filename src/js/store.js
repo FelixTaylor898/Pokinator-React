@@ -63,8 +63,7 @@ function reducer(state, answer) {
             newPoke = state.pokemon.filter(p => (p.gen === state.question.param) === bool);
             break;
         case ("e"):
-            newPoke = state.pokemon.filter(p => ((p.evolve == null) === bool) 
-                || (p.evolve.includes(state.question.param) === bool));
+            newPoke = state.pokemon.filter(p => p.evolve.includes(state.question.param) === bool);
             break;
         case ("p"):
             if (bool) {
@@ -110,7 +109,7 @@ function guessPoke(newQ, p) {
     var newnewQ = newQ;
     newnewQ.count++;
     newnewQ.current = "p";
-    newnewQ.param = p[Math.floor(Math.random() * p.length)];
+    newnewQ.param = p.pop();
     newnewQ.text = newnewQ.count + ". Is it " + newnewQ.param.name + "?";
     return newnewQ;
 }
@@ -144,9 +143,10 @@ export function randomQuestion(q, p) {
     else if (checkZero(newQ, p)) {
         return newQ;
     }
-    else if (p.length < 20 && (Math.floor(Math.random() * 10) === 2 || q.list.length < 2 || p.length < 4)) {
+    else if (q.list.length < 2 || p.length < 4) {
         return guessPoke(newQ, p);
     }
+    // p.length < 30 && (Math.floor(Math.random() * 8) === 2 || 
     newQ.count++;
     var randPoke = p[Math.floor(Math.random() * p.length)];
     var randQuest;
@@ -176,7 +176,7 @@ export function randomQuestion(q, p) {
         newQ.text = newQ.count + ". Is it a baby Pokemon?";
     } else do {
         randQuest = newQ.list[Math.floor(Math.random() * newQ.list.length)];
-    } while (randQuest === "e" && randPoke.evolve == null);
+    } while (randQuest === "e" && randPoke.evolve.length === 0);
     newQ.current = randQuest;
     switch (randQuest) {
         case ("l"):

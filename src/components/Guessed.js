@@ -8,7 +8,7 @@ export function Guessed() {
     return (
         <Fragment>
             <div class="guess-container">
-                {arr.map(item => <div class="guess"><p><strong>{item}</strong></p></div>)}
+                {arr.map(item => <div key={item} class="guess"><p><strong>{item}</strong></p></div>)}
             </div>
         </Fragment>
     );
