@@ -12,7 +12,6 @@ export function Buttons() {
                 <button class="b" onClick={() => dispatch(answerTrue())}>Yes</button>
                 <button class="b" onClick={() => dispatch(answerFalse())}>No</button>
                 <button class="b" onClick={() => dispatch(answerIDK())}>Skip</button>
-
             </div>
         </Fragment>
     );

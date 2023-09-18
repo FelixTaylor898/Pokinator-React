@@ -9,14 +9,7 @@ const initialStore = {
         "current": null,
         "count": 0
     },
-    won: false,
-    wonText: null,
-    askWings: false,
-    askBaby: false,
-    askStarter: false,
-    askLegendary: false,
-    askMega: false,
-    askRegional: false
+    guessed: []
 };
 
 function reducer(state, answer) {
@@ -31,24 +24,9 @@ function reducer(state, answer) {
             ...state,
             pokemon: data,
             question: randomQuestion(null, data),
-            won: false,
-            wonText: null,
-            askRegional: false,
-            askStarter: false,
-            askWings: false,
-            askBaby: false,
-            askLegendary: false,
-            askMega: false
         };
     }
-    if (state.pokemon.length === 0) {
-        return {
-            ...state,
-            won: true,
-            wonText: "I couldn't get it in " + state.question.count + " questions!"
-        }
-    }
-    var bool = answer.type === Answer.True ? true : false;
+    let bool = answer.type === Answer.True ? true : false;
     var newPoke;
     switch (state.question.current) {
         case ("w"):
@@ -61,7 +39,7 @@ function reducer(state, answer) {
             newPoke = state.pokemon.filter(p => (p.legs === state.question.param) === bool);
             break;
         case ("c"):
-            newPoke = state.pokemon.filter(p => (p.color === state.question.param) === bool);
+            newPoke = state.pokemon.filter(p => p.color.includes(state.question.param) === bool);
             break;
         case ("t"):
             newPoke = state.pokemon.filter(p => p.type.includes(state.question.param) === bool);
@@ -81,22 +59,25 @@ function reducer(state, answer) {
         case ("n"):
             newPoke = state.pokemon.filter(p => (p.stage === state.question.param) === bool);
             break;
+        case ("g"):
+            newPoke = state.pokemon.filter(p => (p.gen === state.question.param) === bool);
+            break;
         case ("e"):
-            newPoke = state.pokemon.filter(p => (p.evolve === state.question.param) === bool);
+            newPoke = state.pokemon.filter(p => ((p.evolve == null) === bool) 
+                || (p.evolve.includes(state.question.param) === bool));
             break;
         case ("p"):
             if (bool) {
-                return {
-                    ...state,
-                    won: true,
-                    wonText: "Got it in " + state.question.count + " questions!"
-                };
+                state.question.won = true;
+                state.question.wonText ="Got it in " + state.question.count + " questions!";
+                if (!state.guessed.includes(state.question.param.name)) state.guessed.push(state.question.param.name);
+                return state;
             } else {
                 newPoke = state.pokemon.filter(p => (p.name !== state.question.param.name));
+                state.question = randomQuestion(state.question, newPoke);
                 return {
                     ...state,
-                    pokemon: newPoke,
-                    question: randomQuestion(state.question, newPoke)
+                    pokemon: newPoke
                 };
             }
         default:
@@ -106,7 +87,7 @@ function reducer(state, answer) {
             }
     }
     console.log(newPoke);
-    if (checkZero(state, newPoke)) {
+    if (checkZero(state.question, newPoke)) {
         return state;
     }
     if (bool) state.question.list = state.question.list.filter(i => i !== state.question.current);
@@ -120,17 +101,18 @@ function reducer(state, answer) {
 function checkZero(q, p) {
     if (p.length === 0) {
         q.won = true;
-        q.wonText = "I couldn't get it in " + q.question.count + " guesses!";
+        q.wonText = "I couldn't get it in " + q.count + " questions!";
         return true;
     } return false;
 }
 
 function guessPoke(newQ, p) {
-    newQ.count++;
-    newQ.current = "p";
-    newQ.param = p[Math.floor(Math.random() * p.length)];
-    newQ.text = newQ.count + ". Is it " + newQ.param.name + "?";
-    return newQ;
+    var newnewQ = newQ;
+    newnewQ.count++;
+    newnewQ.current = "p";
+    newnewQ.param = p[Math.floor(Math.random() * p.length)];
+    newnewQ.text = newnewQ.count + ". Is it " + newnewQ.param.name + "?";
+    return newnewQ;
 }
 
 export function randomQuestion(q, p) {
@@ -141,13 +123,21 @@ export function randomQuestion(q, p) {
             "list": ["l", "c", "t", "n", "e", "g"],
             "text": null,
             "param": null,
+            "askWings": false,
+            "askBaby": false,
+            "askStarter": false,
+            "askLegendary": false,
+            "askMega": false,
+            "askRegional": false,
             "current": null,
-            "aColors": ["red", "pink", "yellow", "blue", "brown", "purple", "green", "gray", "white", "black"],
+            "aColors": ["red", "pink", "yellow", "blue", "brown", "purple", "green", "gray", "white", "black","orange"],
             "aStages": [1, 2, 3],
             "aTypes": ["grass", "bug", "dragon", "poison", "fire", "water", "flying", "ice",
                 "ground", "rock", "normal", "psychic", "ghost", "fighting", "electric", "dark", "steel"],
             "aLegs": [0, 2, 4, 6],
             "aEvolve": ["level-up", "stone", "trade", "happiness"],
+            "won": false,
+            "wonText": null,
             "aGens": [1, 2]
         };
     }
@@ -157,9 +147,9 @@ export function randomQuestion(q, p) {
     else if (p.length < 20 && (Math.floor(Math.random() * 10) === 2 || q.list.length < 2 || p.length < 4)) {
         return guessPoke(newQ, p);
     }
+    newQ.count++;
     var randPoke = p[Math.floor(Math.random() * p.length)];
     var randQuest;
-    newQ.count++;
     if (randPoke.wings && !newQ.askWings) {
         newQ.askWings = true;
         randQuest = "w";
@@ -208,7 +198,7 @@ export function randomQuestion(q, p) {
             if (newQ.aGens.length < 2) newQ.list = newQ.list.filter(item => item !== "g");
             break;
         case ("c"):
-            newQ.param = randPoke.color;
+            newQ.param = randPoke.color[Math.floor(Math.random() * randPoke.color.length)];
             newQ.text = newQ.count + ". Is it a " + newQ.param + " Pokemon?";
             newQ.aColors = newQ.aColors.filter(item => item !== newQ.param);
             if (newQ.aColors.length < 2) newQ.list = newQ.list.filter(item => item !== "c");
@@ -220,7 +210,7 @@ export function randomQuestion(q, p) {
             if (newQ.aTypes.length < 2) newQ.list = newQ.list.filter(item => item !== "t");
             break;
         case ("e"):
-            newQ.param = randPoke.evolve;
+            newQ.param = randPoke.evolve[Math.floor(Math.random() * randPoke.evolve.length)];
             newQ.text = newQ.count + ". Does the Pokemon evolve by " + newQ.param + "?";
             newQ.aEvolve = newQ.aEvolve.filter(item => item !== newQ.param);
             if (newQ.aEvolve.length < 2) newQ.list = newQ.list.filter(item => item !== "e");

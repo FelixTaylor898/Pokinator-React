@@ -7,14 +7,14 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "wings": false,
         "gen": 1,
         "starter": true,
         "regional": false,
         "legs": 4,
         "baby": false,
-        "evolve": "level-up",
+        "evolve": ["level-up"],
         "mega": false
     },
     {
@@ -25,7 +25,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["blue", "pink", "green"],
         "wings": false,
         "baby": false,
         "gen": 1,
@@ -33,7 +33,7 @@
         "regional": false,
         "legs": 4,
         "mega": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Venusaur",
@@ -43,7 +43,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "green",
+        "color": ["blue", "pink","green"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -60,7 +60,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["orange","red"],
         "baby": false,
         "gen": 1,
         "starter": true,
@@ -68,7 +68,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Charmeleon",
@@ -81,11 +81,11 @@
         "gen": 1,
         "starter": true,
         "regional": false,
-        "color": "red",
+        "color": ["orange","red"],
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Charizard",
@@ -95,7 +95,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "red",
+        "color": ["red", "orange"],
         "gen": 1,
         "starter": true,
         "regional": false,
@@ -117,10 +117,10 @@
         "gen": 1,
         "starter": true,
         "regional": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Wartortle",
@@ -133,11 +133,11 @@
         "starter": true,
         "regional": false,
         "mega": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Blastoise",
@@ -146,7 +146,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -163,7 +163,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -171,7 +171,7 @@
         "wings": false,
         "baby": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Metapod",
@@ -180,7 +180,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -188,7 +188,7 @@
         "wings": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Butterfree",
@@ -199,7 +199,7 @@
         "stage": 3,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["white","purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -216,7 +216,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -224,7 +224,7 @@
         "baby": false,
         "wings": false,
         "legs": 6,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Kakuna",
@@ -235,14 +235,14 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": false,
         "wings": false,
         "legs": 2,
         "gen": 1,
         "starter": false,
         "regional": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Beedrill",
@@ -253,7 +253,7 @@
         "stage": 3,
         "legendary": false,
         "mega": true,
-        "color": "yellow",
+        "color": ["yellow"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -270,7 +270,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -278,7 +278,7 @@
         "baby": false,
         "legs": 2,
         "mega": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Pidgeotto",
@@ -290,13 +290,13 @@
         "legendary": false,
         "mega": false,
         "baby": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": false,
         "wings": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Pidgeot",
@@ -307,7 +307,7 @@
         "stage": 3,
         "legendary": false,
         "mega": true,
-        "color": "brown",
+        "color": ["brown"],
         "wings": true,
         "gen": 1,
         "starter": false,
@@ -323,7 +323,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "mega": false,
         "baby": false,
         "gen": 1,
@@ -331,7 +331,7 @@
         "regional": true,
         "wings": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Raticate",
@@ -341,7 +341,7 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -358,14 +358,14 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown","red"],
         "gen": 1,
         "starter": false,
         "regional": false,
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Fearow",
@@ -380,7 +380,7 @@
         "starter": false,
         "regional": false,
         "baby": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": true,
         "legs": 2,
         "evolve": null
@@ -393,14 +393,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["purple"],
         "baby": false,
         "gen": 1,
         "starter": false,
         "regional": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Arbok",
@@ -409,7 +409,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -426,7 +426,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["brown","yellow"],
         "wings": false,
         "mega": false,
         "baby": false,
@@ -434,7 +434,7 @@
         "starter": false,
         "regional": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Sandslash",
@@ -445,7 +445,7 @@
         "legendary": false,
         "mega": false,
         "baby": false,
-        "color": "yellow",
+        "color": ["brown","yellow"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -455,12 +455,11 @@
     },
     {
         "name": "Nidoran&female;",
-        "type": [
-            "poison"
+        "type": ["poison"
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -468,7 +467,7 @@
         "starter": false,
         "regional": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Nidorina",
@@ -478,14 +477,14 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "baby": false,
         "gen": 1,
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Nidoqueen",
@@ -495,7 +494,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -513,14 +512,14 @@
         "stage": 1,
         "legendary": false,
         "baby": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
         "mega": false,
         "wings": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Nidorino",
@@ -529,7 +528,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -537,7 +536,7 @@
         "baby": false,
         "legs": 4,
         "mega": false,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Nidoking",
@@ -552,7 +551,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "legs": 2,
         "evolve": null
@@ -564,7 +563,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -572,7 +571,7 @@
         "baby": true,
         "wings": false,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Pikachu",
@@ -581,7 +580,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -589,7 +588,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Raichu",
@@ -598,7 +597,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","brown"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -615,7 +614,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -623,7 +622,7 @@
         "wings": false,
         "baby": true,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Clefairy",
@@ -636,11 +635,11 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Clefable",
@@ -649,7 +648,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -669,12 +668,12 @@
         "regional": true,
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "baby": false,
         "wings": false,
         "mega": false,
         "legs": 4,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Ninetales",
@@ -683,7 +682,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": false,
         "mega": false,
         "gen": 1,
@@ -700,7 +699,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -708,7 +707,7 @@
         "wings": false,
         "baby": true,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Jigglypuff",
@@ -717,7 +716,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -725,7 +724,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Wigglytuff",
@@ -734,7 +733,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -753,14 +752,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["blue","purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Golbat",
@@ -770,7 +769,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["blue","purple"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -778,7 +777,7 @@
         "wings": true,
         "mega": false,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Crobat",
@@ -788,7 +787,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -811,10 +810,10 @@
         "regional": false,
         "mega": false,
         "baby": false,
-        "color": "blue",
+        "color": ["blue","green"],
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Gloom",
@@ -829,10 +828,10 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue","red"],
         "wings": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Bellossom",
@@ -841,7 +840,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "green",
+        "color": ["blue","red"],
         "mega": false,
         "wings": false,
         "baby": false,
@@ -859,7 +858,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -877,7 +876,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red","orange"],
         "mega": false,
         "baby": false,
         "gen": 1,
@@ -885,7 +884,7 @@
         "regional": false,
         "wings": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Parasect",
@@ -896,7 +895,7 @@
         "stage": 2,
         "mega": false,
         "legendary": false,
-        "color": "red",
+        "color": ["red","orange"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -915,13 +914,13 @@
         "legendary": false,
         "baby": false,
         "mega": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "legs": 2,
         "gen": 1,
         "starter": false,
         "regional": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Venomoth",
@@ -931,7 +930,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "mega": false,
         "baby": false,
         "wings": true,
@@ -949,14 +948,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": true,
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Dugtrio",
@@ -969,7 +968,23 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "brown",
+        "color": ["brown"],
+        "baby": false,
+        "wings": false,
+        "legs": 0,
+        "evolve": null
+    },    {
+        "name": "Dunsparce",
+        "type": [
+            "normal"
+        ],
+        "stage": 1,
+        "legendary": false,
+        "mega": false,
+        "gen": 2,
+        "starter": false,
+        "regional": false,
+        "color": ["yellow"],
         "baby": false,
         "wings": false,
         "legs": 0,
@@ -986,11 +1001,11 @@
         "starter": false,
         "regional": true,
         "baby": false,
-        "color": "yellow",
+        "color": ["yellow","brown"],
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Persian",
@@ -999,7 +1014,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","brown"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -1017,14 +1032,14 @@
         "stage": 1,
         "legendary": false,
         "baby": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "wings": false,
         "gen": 1,
         "starter": false,
         "regional": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Golduck",
@@ -1033,7 +1048,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "wings": false,
         "gen": 1,
@@ -1050,7 +1065,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -1058,7 +1073,7 @@
         "regional": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Primeape",
@@ -1068,7 +1083,7 @@
         "stage": 2,
         "baby": false,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1084,7 +1099,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red","orange"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -1092,7 +1107,7 @@
         "starter": false,
         "regional": true,
         "legs": 4,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Arcanine",
@@ -1101,7 +1116,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red","orange"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -1118,7 +1133,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1126,7 +1141,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Poliwhirl",
@@ -1135,7 +1150,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -1143,7 +1158,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": "stone"
+        "evolve": ["stone","trade"]
     },
     {
         "name": "Politoed",
@@ -1152,7 +1167,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "baby": false,
         "wings": false,
         "gen": 2,
@@ -1173,7 +1188,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -1187,7 +1202,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1195,7 +1210,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Kadabra",
@@ -1205,7 +1220,7 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1224,7 +1239,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "wings": false,
         "baby": false,
         "legs": 2,
@@ -1238,7 +1253,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -1246,7 +1261,7 @@
         "baby": false,
         "legs": 2,
         "mega": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Machoke",
@@ -1255,7 +1270,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1272,7 +1287,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "wings": false,
         "mega": false,
@@ -1290,7 +1305,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green","yellow"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -1298,7 +1313,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Weepinbell",
@@ -1308,7 +1323,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green","yellow"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -1316,7 +1331,7 @@
         "regional": false,
         "legs": 0,
         "mega": false,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Victreebel",
@@ -1327,7 +1342,7 @@
         "stage": 3,
         "legendary": false,
         "baby": false,
-        "color": "green",
+        "color": ["green","yellow"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1344,7 +1359,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1352,7 +1367,7 @@
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Tentacruel",
@@ -1362,7 +1377,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "mega": false,
         "gen": 1,
@@ -1380,7 +1395,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "wings": false,
         "gen": 1,
@@ -1388,7 +1403,7 @@
         "regional": true,
         "baby": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Graveler",
@@ -1398,7 +1413,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "mega": false,
         "gen": 1,
@@ -1416,7 +1431,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": true,
@@ -1433,7 +1448,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","orange","red"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -1441,7 +1456,7 @@
         "starter": false,
         "regional": true,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Rapidash",
@@ -1450,7 +1465,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","orange","red"],
         "wings": false,
         "baby": false,
         "gen": 1,
@@ -1471,12 +1486,12 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "pink",
+        "color": ["pink"],
         "baby": false,
         "wings": false,
         "mega": true,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up","trade"]
     },
     {
         "name": "Slowbro",
@@ -1490,7 +1505,7 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "pink",
+        "color": ["pink"],
         "wings": false,
         "mega": true,
         "legs": 2,
@@ -1504,7 +1519,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "wings": false,
         "gen": 2,
         "starter": false,
@@ -1522,7 +1537,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray","blue"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1530,7 +1545,7 @@
         "wings": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Magneton",
@@ -1540,7 +1555,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray","blue"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -1558,7 +1573,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": true,
@@ -1576,7 +1591,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1584,7 +1599,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Dodrio",
@@ -1594,7 +1609,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1611,7 +1626,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "white",
+        "color": ["white"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1619,7 +1634,7 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Dewgong",
@@ -1630,7 +1645,7 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "white",
+        "color": ["white"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -1647,14 +1662,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "baby": false,
         "gen": 1,
         "starter": false,
         "regional": true,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Muk",
@@ -1663,7 +1678,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -1684,11 +1699,11 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "purple",
+        "color": ["purple"],
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Cloyster",
@@ -1698,7 +1713,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1719,12 +1734,12 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "purple",
+        "color": ["purple","black"],
         "wings": false,
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Haunter",
@@ -1735,7 +1750,7 @@
         "stage": 2,
         "legendary": false,
         "baby": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -1752,7 +1767,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1770,7 +1785,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1791,7 +1806,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "gray",
+        "color": ["gray"],
         "baby": false,
         "mega": true,
         "wings": false,
@@ -1805,7 +1820,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -1813,7 +1828,7 @@
         "wings": false,
         "mega": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Hypno",
@@ -1822,7 +1837,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -1842,12 +1857,12 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "red",
+        "color": ["red","orange"],
         "mega": false,
         "wings": false,
         "legs": 4,
         "baby": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Kingler",
@@ -1859,7 +1874,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "red",
+        "color": ["red","orange"],
         "wings": false,
         "mega": false,
         "baby": false,
@@ -1876,12 +1891,12 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "red",
+        "color": ["red","white"],
         "baby": false,
         "wings": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Electrode",
@@ -1890,7 +1905,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red","white"],
         "wings": false,
         "legs": 0,
         "gen": 1,
@@ -1908,7 +1923,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -1916,7 +1931,7 @@
         "starter": false,
         "regional": true,
         "legs": 0,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Exeggutor",
@@ -1927,7 +1942,7 @@
         "stage": 2,
         "legendary": false,
         "baby": false,
-        "color": "green",
+        "color": ["green","brown"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -1943,7 +1958,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "mega": false,
         "baby": false,
@@ -1951,7 +1966,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Marowak",
@@ -1963,7 +1978,7 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "mega": false,
         "baby": false,
@@ -1977,7 +1992,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown","blue"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -1994,7 +2009,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2011,7 +2026,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2032,7 +2047,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "purple",
+        "color": ["purple","brown"],
         "mega": false,
         "wings": false,
         "legs": 2,
@@ -2048,7 +2063,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "pink",
+        "color": ["pink"],
         "wings": false,
         "mega": false,
         "baby": false,
@@ -2063,14 +2078,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
         "wings": false,
         "baby": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Weezing",
@@ -2080,7 +2095,7 @@
         "stage": 2,
         "legendary": false,
         "mega": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": true,
@@ -2100,12 +2115,12 @@
         "starter": false,
         "regional": false,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray"],
         "wings": false,
         "mega": false,
         "baby": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Rhydon",
@@ -2120,7 +2135,7 @@
         "regional": false,
         "mega": false,
         "baby": false,
-        "color": "gray",
+        "color": ["gray"],
         "wings": false,
         "legs": 2,
         "evolve": null
@@ -2132,7 +2147,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -2140,7 +2155,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Blissey",
@@ -2149,7 +2164,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink","white"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -2166,7 +2181,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "baby": false,
         "gen": 1,
@@ -2183,7 +2198,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2200,7 +2215,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -2208,7 +2223,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Seadra",
@@ -2217,7 +2232,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "wings": false,
         "gen": 1,
@@ -2235,7 +2250,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -2253,14 +2268,14 @@
         "stage": 1,
         "legendary": false,
         "mega": false,
-        "color": "red",
+        "color": ["red","white"],
         "baby": false,
         "wings": false,
         "gen": 1,
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Seaking",
@@ -2269,7 +2284,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -2286,7 +2301,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "mega": false,
         "gen": 1,
@@ -2294,7 +2309,7 @@
         "regional": false,
         "baby": false,
         "legs": 0,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
         "name": "Starmie",
@@ -2304,7 +2319,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2325,7 +2340,7 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "pink",
+        "color": ["pink"],
         "baby": false,
         "wings": false,
         "legs": 2,
@@ -2343,7 +2358,7 @@
         "starter": false,
         "regional": false,
         "baby": false,
-        "color": "green",
+        "color": ["green"],
         "wings": true,
         "mega": false,
         "legs": 2,
@@ -2357,7 +2372,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "baby": false,
         "wings": true,
         "mega": false,
@@ -2378,7 +2393,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "red",
+        "color": ["red","purple","yellow"],
         "baby": false,
         "mega": false,
         "wings": false,
@@ -2396,7 +2411,7 @@
         "starter": false,
         "regional": false,
         "baby": false,
-        "color": "yellow",
+        "color": ["yellow","black"],
         "mega": false,
         "wings": false,
         "legs": 2,
@@ -2412,7 +2427,7 @@
         "gen": 1,
         "starter": false,
         "regional": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": true,
         "baby": false,
         "wings": false,
@@ -2429,7 +2444,7 @@
         "starter": false,
         "regional": true,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -2446,7 +2461,7 @@
         "starter": false,
         "regional": false,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "wings": false,
         "mega": false,
@@ -2460,7 +2475,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown","white"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -2477,7 +2492,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2485,7 +2500,7 @@
         "wings": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Magmar",
@@ -2494,7 +2509,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red","yellow"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -2515,7 +2530,7 @@
         "starter": false,
         "regional": false,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": true,
         "baby": false,
         "wings": false,
@@ -2530,7 +2545,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "baby": false,
         "mega": false,
@@ -2547,7 +2562,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "wings": false,
         "baby": false,
         "gen": 1,
@@ -2564,7 +2579,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -2572,7 +2587,7 @@
         "baby": false,
         "wings": false,
         "legs": 4,
-        "evolve": "stone"
+        "evolve": ["stone", "happiness"]
     },
     {
         "name": "Vaporeon",
@@ -2581,7 +2596,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2598,7 +2613,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -2615,7 +2630,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2632,7 +2647,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "baby": false,
         "gen": 2,
@@ -2649,7 +2664,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "black",
+        "color": ["black"],
         "baby": false,
         "mega": false,
         "gen": 2,
@@ -2666,7 +2681,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink","blue"],
         "baby": false,
         "wings": false,
         "gen": 1,
@@ -2683,7 +2698,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink","blue"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -2701,7 +2716,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -2709,7 +2724,7 @@
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Omastar",
@@ -2719,7 +2734,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "wings": false,
         "mega": false,
@@ -2737,7 +2752,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -2745,7 +2760,7 @@
         "baby": false,
         "mega": false,
         "legs": 6,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Kabutops",
@@ -2755,7 +2770,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 1,
         "starter": false,
@@ -2773,7 +2788,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -2790,7 +2805,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 1,
         "starter": false,
@@ -2808,7 +2823,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "blue",
+        "color": ["blue"],
         "wings": true,
         "gen": 1,
         "starter": false,
@@ -2831,7 +2846,7 @@
         "gen": 1,
         "starter": false,
         "regional": true,
-        "color": "yellow",
+        "color": ["yellow"],
         "wings": true,
         "legs": 2,
         "evolve": null
@@ -2844,7 +2859,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "yellow",
+        "color": ["yellow","orange"],
         "wings": true,
         "legs": 2,
         "gen": 1,
@@ -2861,7 +2876,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "gen": 1,
         "starter": false,
@@ -2869,7 +2884,7 @@
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Dragonair",
@@ -2879,14 +2894,14 @@
         "stage": 2,
         "legendary": false,
         "baby": false,
-        "color": "blue",
+        "color": ["blue"],
         "wings": false,
         "gen": 1,
         "starter": false,
         "regional": false,
         "legs": 0,
         "mega": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Dragonite",
@@ -2896,7 +2911,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": false,
         "mega": false,
         "wings": true,
@@ -2913,7 +2928,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "purple",
+        "color": ["purple","white"],
         "gen": 1,
         "starter": false,
         "regional": false,
@@ -2930,7 +2945,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "baby": false,
         "gen": 1,
@@ -2947,7 +2962,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "mega": false,
         "gen": 2,
         "starter": true,
@@ -2955,7 +2970,7 @@
         "baby": false,
         "wings": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Bayleef",
@@ -2964,7 +2979,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green","yellow"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -2972,7 +2987,7 @@
         "starter": true,
         "regional": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Meganium",
@@ -2981,7 +2996,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "gen": 2,
         "starter": true,
         "regional": false,
@@ -2998,7 +3013,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","blue"],
         "baby": false,
         "gen": 2,
         "starter": true,
@@ -3006,7 +3021,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Quilava",
@@ -3015,7 +3030,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","blue"],
         "mega": false,
         "gen": 2,
         "starter": true,
@@ -3023,7 +3038,7 @@
         "wings": false,
         "legs": 4,
         "baby": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Typhlosion",
@@ -3032,7 +3047,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow","blue"],
         "baby": false,
         "mega": false,
         "wings": false,
@@ -3049,7 +3064,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "gen": 2,
         "starter": true,
         "regional": false,
@@ -3057,7 +3072,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Croconaw",
@@ -3066,7 +3081,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 2,
         "starter": true,
@@ -3074,7 +3089,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Feraligatr",
@@ -3083,7 +3098,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 2,
         "starter": true,
@@ -3100,7 +3115,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3108,7 +3123,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Furret",
@@ -3117,7 +3132,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3135,7 +3150,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3143,7 +3158,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Noctowl",
@@ -3153,7 +3168,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3171,7 +3186,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red","yellow"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3179,7 +3194,7 @@
         "baby": false,
         "wings": true,
         "legs": 6,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Ledian",
@@ -3189,7 +3204,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red","yellow"],
         "mega": false,
         "baby": false,
         "wings": true,
@@ -3197,7 +3212,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Celebi",
@@ -3207,7 +3222,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "green",
+        "color": ["green"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3225,7 +3240,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "red",
+        "color": ["red","white","yellow"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3243,7 +3258,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "white",
+        "color": ["white"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3261,7 +3276,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "mega": false,
         "baby": false,
         "gen": 2,
@@ -3269,7 +3284,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Pupitar",
@@ -3279,7 +3294,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3287,7 +3302,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Tyranitar",
@@ -3297,7 +3312,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "mega": true,
         "wings": false,
         "baby": false,
@@ -3305,7 +3320,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Raikou",
@@ -3314,7 +3329,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "yellow",
+        "color": ["yellow"],
         "mega": false,
         "baby": false,
         "gen": 2,
@@ -3331,7 +3346,7 @@
         ],
         "stage": 1,
         "legendary": true,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -3351,7 +3366,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue","purple"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -3365,7 +3380,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3382,7 +3397,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "baby": true,
         "gen": 2,
@@ -3390,7 +3405,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Smoochum",
@@ -3400,7 +3415,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink","yellow"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3408,7 +3423,7 @@
         "baby": true,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Elekid",
@@ -3417,7 +3432,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "baby": true,
         "mega": false,
         "wings": false,
@@ -3425,7 +3440,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Spinarak",
@@ -3435,7 +3450,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3443,7 +3458,7 @@
         "mega": false,
         "wings": false,
         "legs": 6,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Ariados",
@@ -3453,7 +3468,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "wings": false,
         "gen": 2,
@@ -3474,12 +3489,12 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Lanturn",
@@ -3489,7 +3504,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -3506,7 +3521,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "white",
+        "color": ["white","yellow"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3514,7 +3529,7 @@
         "wings": false,
         "baby": true,
         "legs": 2,
-        "evolve": "happiness"
+        "evolve": ["happiness"]
     },
     {
         "name": "Togetic",
@@ -3524,7 +3539,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "white",
+        "color": ["white"],
         "mega": false,
         "wings": true,
         "gen": 2,
@@ -3542,7 +3557,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3550,7 +3565,7 @@
         "baby": false,
         "wings": true,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Xatu",
@@ -3560,7 +3575,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3577,7 +3592,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue","yellow"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3585,7 +3600,7 @@
         "wings": false,
         "baby": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Flaaffy",
@@ -3597,12 +3612,12 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Ampharos",
@@ -3614,7 +3629,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "mega": true,
         "wings": false,
         "baby": false,
@@ -3631,12 +3646,12 @@
         "regional": false,
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Azumarill",
@@ -3648,7 +3663,7 @@
         "regional": false,
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "wings": false,
         "baby": false,
@@ -3662,7 +3677,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -3680,7 +3695,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3688,7 +3703,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Skiploom",
@@ -3698,7 +3713,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -3706,7 +3721,7 @@
         "mega": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Jumpluff",
@@ -3716,7 +3731,7 @@
         ],
         "stage": 3,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "wings": false,
         "legs": 2,
@@ -3733,7 +3748,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "baby": false,
         "mega": false,
         "gen": 2,
@@ -3750,7 +3765,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3758,23 +3773,23 @@
         "mega": false,
         "wings": false,
         "legs": 0,
-        "evolve": "stone"
+        "evolve": ["stone"]
     },
     {
-        "name": "Sunkern",
+        "name": "Sunflora",
         "type": [
             "grass"
         ],
         "stage": 2,
         "legendary": false,
-        "color": "green",
+        "color": ["green","yellow"],
         "baby": false,
         "mega": false,
         "gen": 2,
         "starter": false,
         "regional": false,
         "wings": false,
-        "legs": 0,
+        "legs": 2,
         "evolve": null
     },
     {
@@ -3785,7 +3800,7 @@
         ],
         "stage": 0,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3803,7 +3818,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3811,7 +3826,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Quagsire",
@@ -3821,7 +3836,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "mega": false,
         "gen": 2,
@@ -3839,7 +3854,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "black",
+        "color": ["black"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3857,7 +3872,7 @@
         "stage": 1,
         "legendary": false,
         "baby": false,
-        "color": "black",
+        "color": ["black"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3873,7 +3888,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "black",
+        "color": ["black"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3890,7 +3905,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -3908,7 +3923,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3925,7 +3940,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3933,7 +3948,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Forretress",
@@ -3944,7 +3959,7 @@
         "stage": 2,
         "legendary": false,
         "baby": false,
-        "color": "red",
+        "color": ["red"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3961,7 +3976,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "purple",
+        "color": ["purple"],
         "gen": 2,
         "starter": false,
         "regional": false,
@@ -3978,7 +3993,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -3986,7 +4001,7 @@
         "wings": false,
         "baby": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Granbull",
@@ -3998,7 +4013,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "pink",
+        "color": ["pink","purple"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -4012,7 +4027,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": false,
         "wings": false,
         "gen": 2,
@@ -4020,16 +4035,16 @@
         "regional": false,
         "baby": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
-        "name": "Phanpy",
+        "name": "Donphan",
         "type": [
             "ground"
         ],
         "stage": 2,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray","blue"],
         "baby": false,
         "mega": false,
         "gen": 2,
@@ -4047,7 +4062,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "black",
+        "color": ["black","orange"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -4055,7 +4070,7 @@
         "mega": false,
         "wings": false,
         "legs": 4,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Houndoom",
@@ -4065,7 +4080,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "black",
+        "color": ["black","orange"],
         "baby": false,
         "gen": 2,
         "starter": false,
@@ -4086,7 +4101,7 @@
         "starter": false,
         "regional": false,
         "legendary": false,
-        "color": "gray",
+        "color": ["gray","red"],
         "mega": false,
         "wings": false,
         "baby": false,
@@ -4104,7 +4119,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue","purple"],
         "mega": false,
         "wings": false,
         "baby": false,
@@ -4122,7 +4137,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "wings": false,
         "legs": 2,
@@ -4136,7 +4151,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "baby": false,
         "gen": 2,
@@ -4161,7 +4176,7 @@
         "regional": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Corsola",
@@ -4171,7 +4186,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "pink",
+        "color": ["pink"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -4189,7 +4204,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "green",
+        "color": ["green"],
         "gen": 2,
         "starter": false,
         "regional": true,
@@ -4208,7 +4223,7 @@
         "stage": 1,
         "legendary": false,
         "baby": false,
-        "color": "yellow",
+        "color": ["yellow"],
         "mega": false,
         "wings": false,
         "gen": 2,
@@ -4229,7 +4244,7 @@
         "gen": 2,
         "starter": false,
         "regional": false,
-        "color": "blue",
+        "color": ["blue"],
         "mega": true,
         "wings": false,
         "legs": 2,
@@ -4243,7 +4258,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "black",
+        "color": ["black"],
         "gen": 2,
         "starter": false,
         "regional": true,
@@ -4260,7 +4275,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown","orange"],
         "mega": false,
         "baby": false,
         "gen": 2,
@@ -4268,7 +4283,7 @@
         "regional": false,
         "wings": false,
         "legs": 2,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Ursaring",
@@ -4277,7 +4292,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -4294,7 +4309,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "baby": false,
         "wings": false,
@@ -4302,7 +4317,7 @@
         "starter": false,
         "regional": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Magcargo",
@@ -4312,7 +4327,7 @@
         ],
         "stage": 2,
         "legendary": false,
-        "color": "red",
+        "color": ["red"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -4330,7 +4345,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "mega": false,
         "gen": 2,
         "starter": false,
@@ -4338,7 +4353,7 @@
         "baby": false,
         "wings": false,
         "legs": 0,
-        "evolve": "level-up"
+        "evolve": ["level-up"]
     },
     {
         "name": "Piloswine",
@@ -4348,7 +4363,7 @@
         ],
         "stage": 1,
         "legendary": false,
-        "color": "brown",
+        "color": ["brown"],
         "baby": false,
         "mega": false,
         "gen": 2,
