@@ -2,6 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { Answer } from './answers';
 import data from '../poke.json';
+import { removeItem, checkZero, guessPoke, editSpecial, editTypical } from "./util";
 
 const initialStore = {
     pokemon: data,
@@ -11,13 +12,6 @@ const initialStore = {
     },
     guessed: []
 };
-
-function removeItem(arr, item) {
-    const index = arr.indexOf(item);
-    if (index > -1) {
-      arr.splice(index, 1);
-    }
-}
 
 function reducer(state, answer) {
     if (answer.type === Answer.IDK) {
@@ -83,7 +77,6 @@ function reducer(state, answer) {
                 return state;
             } else {
                 removeItem(newPoke, state.question.param.name);
-                //newPoke = state.pokemon.filter(p => (p.name !== state.question.param.name));
                 state.question = randomQuestion(state.question, newPoke);
                 return {
                     ...state,
@@ -106,35 +99,6 @@ function reducer(state, answer) {
         pokemon: newPoke,
         question: randomQuestion(state.question, newPoke)
     };
-}
-
-function checkZero(q, p) {
-    if (p.length === 0) {
-        q.won = true;
-        q.wonText = "I couldn't get it in " + q.count + " questions!";
-        return true;
-    } return false;
-}
-
-function guessPoke(newQ, p) {
-    newQ.count++;
-    newQ.current = "p";
-    newQ.param = p.pop();
-    newQ.text = newQ.count + ". Is it " + newQ.param.name + "?";
-    return newQ;
-}
-
-function editSpecial(name, info, question, curr) {
-    question.specialMap[name] = true;
-    question.text = question.count + ". " + info;
-    question.current = curr;
-}
-
-function editTypical(info, pokeParam, qParam, q, curr) {
-    q.param = pokeParam;
-    q.text = q.count + ". " + info;
-    removeItem(q[qParam], pokeParam);
-    if (q[qParam].length < 2) removeItem(q.list, curr);
 }
 
 export function randomQuestion(q, p) {
