@@ -1976,7 +1976,7 @@
         "regional": false,
         "legs": 0,
         "mega": false,
-        "evolve": []
+        "evolve": ["level-up","stone"]
     },
     {
         "name": "Farfetch'd",
@@ -3383,7 +3383,7 @@
         "baby": false,
         "mega": false,
         "legs": 0,
-        "evolve": []
+        "evolve": ["trade"]
     },
     {
         "name": "Omanyte",
@@ -4144,9 +4144,7 @@
         "starter": false,
         "regional": false,
         "legs": 2,
-        "evolve": [
-            "level-up"
-        ]
+        "evolve": []
     },
     {
         "name": "Raikou",
@@ -5303,7 +5301,7 @@
         "baby": false,
         "wings": false,
         "legs": 2,
-        "evolve": []
+        "evolve": ["level-up"]
     },
     {
         "name": "Teddiursa",
@@ -6518,7 +6516,7 @@
       "legendary": true,
       "regional": false,
       "gen": 3,
-      "mega": false,
+      "mega": true,
       "starter": false,
       "stage": 1,
       "fossil": false
@@ -6534,7 +6532,7 @@
       "legendary": true,
       "regional": false,
       "gen": 3,
-      "mega": false,
+      "mega": true,
       "starter": false,
       "stage": 1,
       "fossil": false
@@ -6879,7 +6877,7 @@
       "name": "Nosepass",
       "color": ["blue"],
       "type": ["rock"],
-      "evolve": [],
+      "evolve": ["level-up"],
       "wings": false,
       "legs": 2,
       "baby": false,
@@ -7264,7 +7262,7 @@
       "color": ["orange"],
       "type": ["fire"],
       "evolve": ["level-up"],
-      "wings": false,
+      "wings": true,
       "legs": 2,
       "baby": false,
       "legendary": false,
