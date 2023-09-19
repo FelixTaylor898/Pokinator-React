@@ -12,6 +12,13 @@ const initialStore = {
     guessed: []
 };
 
+function removeItem(arr, item) {
+    const index = arr.indexOf(item);
+    if (index > -1) {
+      arr.splice(index, 1);
+    }
+}
+
 function reducer(state, answer) {
     if (answer.type === Answer.IDK) {
         return {
@@ -36,12 +43,15 @@ function reducer(state, answer) {
             newPoke = state.pokemon.filter(p => p.mega === bool);
             break;
         case ("l"):
+            if(bool) removeItem(state.question.list, "l");
             newPoke = state.pokemon.filter(p => (p.legs === state.question.param) === bool);
             break;
         case ("c"):
+            if(bool) removeItem(state.question.list, "c");
             newPoke = state.pokemon.filter(p => p.color.includes(state.question.param) === bool);
             break;
         case ("t"):
+            if(bool) removeItem(state.question.list, "t");
             newPoke = state.pokemon.filter(p => p.type.includes(state.question.param) === bool);
             break;
         case ("b"):
@@ -56,19 +66,25 @@ function reducer(state, answer) {
         case ("s"):
             newPoke = state.pokemon.filter(p => p.starter === bool);
             break;
+        case ("f"):
+            newPoke = state.pokemon.filter(p => p.fossil === bool);
+            break;
         case ("n"):
+            if(bool) removeItem(state.question.list, "n");
             newPoke = state.pokemon.filter(p => (p.stage === state.question.param) === bool);
             break;
         case ("g"):
+            if(bool) removeItem(state.question.list, "g");
             newPoke = state.pokemon.filter(p => (p.gen === state.question.param) === bool);
             break;
         case ("e"):
+            if(bool) removeItem(state.question.list, "e");
             newPoke = state.pokemon.filter(p => p.evolve.includes(state.question.param) === bool);
             break;
         case ("p"):
             if (bool) {
                 state.question.won = true;
-                state.question.wonText ="Got it in " + state.question.count + " questions!";
+                state.question.wonText = "Got it in " + state.question.count + " questions!";
                 if (!state.guessed.includes(state.question.param.name)) state.guessed.push(state.question.param.name);
                 return state;
             } else {
@@ -114,71 +130,64 @@ function guessPoke(newQ, p) {
     return newnewQ;
 }
 
+function editSpecial(name, info, question, curr) {
+    question.specialMap[name] = true;
+    question.text = question.count + ". " + info;
+    question.current = curr;
+}
+
 export function randomQuestion(q, p) {
-    var newQ = q;
-    if (q == null) {
-        newQ = {
-            "count": 0,
-            "list": ["l", "c", "t", "n", "e", "g"],
-            "text": null,
-            "param": null,
+    var newQ = q || {
+        "count": 0,
+        "list": ["l", "c", "t", "n", "e", "g"],
+        "text": null,
+        "param": null,
+        "specialMap": {
             "askWings": false,
             "askBaby": false,
+            "askFossil": false,
             "askStarter": false,
             "askLegendary": false,
             "askMega": false,
-            "askRegional": false,
-            "current": null,
-            "aColors": ["red", "pink", "yellow", "blue", "brown", "purple", "green", "gray", "white", "black","orange"],
-            "aStages": [1, 2, 3],
-            "aTypes": ["grass", "bug", "dragon", "poison", "fire", "water", "flying", "ice",
-                "ground", "rock", "normal", "psychic", "ghost", "fighting", "electric", "dark", "steel"],
-            "aLegs": [0, 2, 4, 6],
-            "aEvolve": ["level-up", "stone", "trade", "happiness"],
-            "won": false,
-            "wonText": null,
-            "aGens": [1, 2]
-        };
-    }
-    else if (checkZero(newQ, p)) {
+            "askRegional": false
+        },
+        "current": null,
+        "aColors": ["red", "pink", "yellow", "blue", "brown", "purple", "green", "gray", "white", "black", "orange"],
+        "aStages": [1, 2, 3],
+        "aTypes": ["grass", "bug", "dragon", "poison", "fire", "water", "flying", "ice",
+            "ground", "rock", "normal", "psychic", "ghost", "fighting", "electric", "dark", "steel", "fairy"],
+        "aLegs": [0, 2, 4, 6],
+        "aEvolve": ["level-up", "stone", "trade", "happiness"],
+        "won": false,
+        "wonText": null,
+        "aGens": [1, 2, 3]
+    };
+    if (checkZero(newQ, p)) {
         return newQ;
-    }
-    else if (q.list.length < 2 || p.length < 4) {
+    } if (newQ.list.length < 2 || p.length < 4) {
         return guessPoke(newQ, p);
     }
-    // p.length < 30 && (Math.floor(Math.random() * 8) === 2 || 
     newQ.count++;
     var randPoke = p[Math.floor(Math.random() * p.length)];
-    var randQuest;
-    if (randPoke.wings && !newQ.askWings) {
-        newQ.askWings = true;
-        randQuest = "w";
-        newQ.text = newQ.count + ". Does the Pokemon have wings?";
-    } else if (randPoke.legendary && !newQ.askLegendary) {
-        newQ.askLegendary = true;
-        randQuest = "L";
-        newQ.text = newQ.count + ". Is it a legendary Pokemon?";
-    } else if (randPoke.starter && !newQ.askStarter) {
-        newQ.askStarter = true;
-        randQuest = "s";
-        newQ.text = newQ.count + ". Is it a starter Pokemon?";
-    } else if (randPoke.regional && !newQ.askRegional) {
-        newQ.askRegional = true;
-        randQuest = "r";
-        newQ.text = newQ.count + ". Does the Pokemon have an alternate regional form?";
-    } else if (randPoke.mega && !newQ.askMega) {
-        newQ.askMega = true;
-        randQuest = "m";
-        newQ.text = newQ.count + ". Does the Pokemon have a mega-evolution?";
-    } else if (randPoke.baby && !newQ.askBaby) {
-        newQ.askBaby = true;
-        randQuest = "b";
-        newQ.text = newQ.count + ". Is it a baby Pokemon?";
+    newQ.current = null;
+    if (!newQ.specialMap.askWings && randPoke.wings) {
+        editSpecial("askWings", "Does the Pokemon have wings?", newQ, "w");
+    } else if (!newQ.specialMap.askLegendary && randPoke.legendary) {
+        editSpecial("askLegendary", "Is it a legendary Pokemon?", newQ, "L");
+    } else if (!newQ.specialMap.askStarter && randPoke.starter) {
+        editSpecial("askStarter", "Is it a starter Pokemon?", newQ, "s");
+    } else if (!newQ.specialMap.askRegional && randPoke.regional) {
+        editSpecial("askRegional", "Does the Pokemon have an alternate regional form?", newQ, "r");
+    } else if (!newQ.specialMap.askMega && randPoke.mega) {
+        editSpecial("askMega", "Does the Pokemon have a mega-evolution?", newQ, "m");
+    } else if (!newQ.specialMap.askBaby && randPoke.baby) {
+        editSpecial("askBaby", "Is it a baby Pokemon?", newQ, "b");
+    } else if (!newQ.specialMap.askFossil && randPoke.fossil) {
+        editSpecial("askFossil", "Is it a fossil Pokemon?", newQ, "f");
     } else do {
-        randQuest = newQ.list[Math.floor(Math.random() * newQ.list.length)];
-    } while (randQuest === "e" && randPoke.evolve.length === 0);
-    newQ.current = randQuest;
-    switch (randQuest) {
+        newQ.current = newQ.list[Math.floor(Math.random() * newQ.list.length)];
+    } while (newQ.current === "e" && randPoke.evolve.length === 0);
+    switch (newQ.current) {
         case ("l"):
             newQ.param = randPoke.legs;
             newQ.text = newQ.count + ". Does it have " + newQ.param + " legs/talons?";
@@ -218,6 +227,9 @@ export function randomQuestion(q, p) {
         default:
             break;
     }
+    console.log(newQ.text);
+    console.log(newQ.param);
+    console.log(randPoke);
     return newQ;
 }
 

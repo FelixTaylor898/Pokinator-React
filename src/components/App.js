@@ -16,7 +16,7 @@ function App() {
       <div class="major-div">
         <div class="flex-container">
           {!won && <div class="game">
-            <p><strong>Pokemon Guessing Game</strong> (Gens 1-2)</p>
+            <p><strong>Pokemon Guessing Game</strong> (Gens 1-3)</p>
             <Question />
             <Buttons />
           </div>}
