@@ -34,7 +34,7 @@ function reducer(state, answer) {
         };
     }
     let bool = answer.type === Answer.True ? true : false;
-    var newPoke;
+    var newPoke = state.pokemon;
     switch (state.question.current) {
         case ("w"):
             newPoke = state.pokemon.filter(p => p.wings === bool);
@@ -43,15 +43,12 @@ function reducer(state, answer) {
             newPoke = state.pokemon.filter(p => p.mega === bool);
             break;
         case ("l"):
-            if(bool) removeItem(state.question.list, "l");
             newPoke = state.pokemon.filter(p => (p.legs === state.question.param) === bool);
             break;
         case ("c"):
-            if(bool) removeItem(state.question.list, "c");
             newPoke = state.pokemon.filter(p => p.color.includes(state.question.param) === bool);
             break;
         case ("t"):
-            if(bool) removeItem(state.question.list, "t");
             newPoke = state.pokemon.filter(p => p.type.includes(state.question.param) === bool);
             break;
         case ("b"):
@@ -70,16 +67,13 @@ function reducer(state, answer) {
             newPoke = state.pokemon.filter(p => p.fossil === bool);
             break;
         case ("n"):
-            if(bool) removeItem(state.question.list, "n");
             newPoke = state.pokemon.filter(p => (p.stage === state.question.param) === bool);
             break;
         case ("g"):
-            if(bool) removeItem(state.question.list, "g");
             newPoke = state.pokemon.filter(p => (p.gen === state.question.param) === bool);
             break;
         case ("e"):
-            if(bool) removeItem(state.question.list, "e");
-            newPoke = state.pokemon.filter(p => p.evolve.includes(state.question.param) === bool);
+            state.pokemon.filter(p => p.evolve.includes(state.question.param) === bool);
             break;
         case ("p"):
             if (bool) {
@@ -88,7 +82,8 @@ function reducer(state, answer) {
                 if (!state.guessed.includes(state.question.param.name)) state.guessed.push(state.question.param.name);
                 return state;
             } else {
-                newPoke = state.pokemon.filter(p => (p.name !== state.question.param.name));
+                removeItem(newPoke, state.question.param.name);
+                //newPoke = state.pokemon.filter(p => (p.name !== state.question.param.name));
                 state.question = randomQuestion(state.question, newPoke);
                 return {
                     ...state,
@@ -105,7 +100,7 @@ function reducer(state, answer) {
     if (checkZero(state.question, newPoke)) {
         return state;
     }
-    if (bool) state.question.list = state.question.list.filter(i => i !== state.question.current);
+    if (bool) removeItem(state.question.list, state.question.current);
     return {
         ...state,
         pokemon: newPoke,
@@ -122,18 +117,24 @@ function checkZero(q, p) {
 }
 
 function guessPoke(newQ, p) {
-    var newnewQ = newQ;
-    newnewQ.count++;
-    newnewQ.current = "p";
-    newnewQ.param = p.pop();
-    newnewQ.text = newnewQ.count + ". Is it " + newnewQ.param.name + "?";
-    return newnewQ;
+    newQ.count++;
+    newQ.current = "p";
+    newQ.param = p.pop();
+    newQ.text = newQ.count + ". Is it " + newQ.param.name + "?";
+    return newQ;
 }
 
 function editSpecial(name, info, question, curr) {
     question.specialMap[name] = true;
     question.text = question.count + ". " + info;
     question.current = curr;
+}
+
+function editTypical(info, pokeParam, qParam, q, curr) {
+    q.param = pokeParam;
+    q.text = q.count + ". " + info;
+    removeItem(q[qParam], pokeParam);
+    if (q[qParam].length < 2) removeItem(q.list, curr);
 }
 
 export function randomQuestion(q, p) {
@@ -189,40 +190,26 @@ export function randomQuestion(q, p) {
     } while (newQ.current === "e" && randPoke.evolve.length === 0);
     switch (newQ.current) {
         case ("l"):
-            newQ.param = randPoke.legs;
-            newQ.text = newQ.count + ". Does it have " + newQ.param + " legs/talons?";
-            newQ.aLegs = newQ.aLegs.filter(item => item !== newQ.param);
-            if (newQ.aLegs.length < 2) newQ.list = newQ.list.filter(item => item !== "l");
+            editTypical("Does it stand on "+ randPoke.legs + " legs/talons?", randPoke.legs, "aLegs", newQ, "l")
             break;
         case ("n"):
-            newQ.param = randPoke.stage;
-            newQ.text = newQ.count + ". Is it a stage " + newQ.param + " Pokemon?";
-            newQ.aStages = newQ.aStages.filter(item => item !== newQ.param);
-            if (newQ.aStages.length < 2) newQ.list = newQ.list.filter(item => item !== "n");
+            let stage = randPoke.color[Math.floor(Math.random() * randPoke.stage.length)];
+            editTypical("Is it a stage "+ stage + " Pokemon?", stage, "aStages", newQ, "n")
             break;
         case ("g"):
-            newQ.param = randPoke.gen;
-            newQ.text = newQ.count + ". Is it a gen " + newQ.param + " Pokemon?";
-            newQ.aGens = newQ.aGens.filter(item => item !== newQ.param);
-            if (newQ.aGens.length < 2) newQ.list = newQ.list.filter(item => item !== "g");
+            editTypical("Is it a gen "+ randPoke.gen + " Pokemon?", randPoke.gen, "aGens", newQ, "g")
             break;
         case ("c"):
-            newQ.param = randPoke.color[Math.floor(Math.random() * randPoke.color.length)];
-            newQ.text = newQ.count + ". Is it a " + newQ.param + " Pokemon?";
-            newQ.aColors = newQ.aColors.filter(item => item !== newQ.param);
-            if (newQ.aColors.length < 2) newQ.list = newQ.list.filter(item => item !== "c");
+            let color = randPoke.color[Math.floor(Math.random() * randPoke.color.length)];
+            editTypical("Is it a(n) "+ color + " Pokemon?", color, "aColors", newQ, "c");
             break;
         case ("t"):
-            newQ.param = randPoke.type[Math.floor(Math.random() * randPoke.type.length)];
-            newQ.text = newQ.count + ". Is it " + newQ.param + "-type?";
-            newQ.aTypes = newQ.aTypes.filter(item => item !== newQ.param);
-            if (newQ.aTypes.length < 2) newQ.list = newQ.list.filter(item => item !== "t");
+            let type = randPoke.type[Math.floor(Math.random() * randPoke.type.length)];
+            editTypical("Is it a(n) "+ type + "-type Pokemon?", type, "aTypes", newQ, "t");
             break;
         case ("e"):
-            newQ.param = randPoke.evolve[Math.floor(Math.random() * randPoke.evolve.length)];
-            newQ.text = newQ.count + ". Does the Pokemon evolve by " + newQ.param + "?";
-            newQ.aEvolve = newQ.aEvolve.filter(item => item !== newQ.param);
-            if (newQ.aEvolve.length < 2) newQ.list = newQ.list.filter(item => item !== "e");
+            let evolve = randPoke.evolve[Math.floor(Math.random() * randPoke.evolve.length)];
+            editTypical("Does the Pokemon evolve by "+ evolve + "?", evolve, "aEvolve", newQ, "e");
             break;
         default:
             break;
